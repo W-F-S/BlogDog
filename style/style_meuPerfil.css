@@ -1,0 +1,70 @@
+@media screen and (min-width:320px) and (max-width:991px){
+    .main {
+        margin-top: 150px;
+    }
+}
+
+#text-initial {
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.subtit2 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-family: cursive;
+    font-size: 1.4em;
+}
+
+.card-dica {
+    margin-bottom: 20px;
+}
+
+.botao {
+    margin-bottom: 20px;
+}
+
+#JSarea{
+    max-width: 98%;
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 33%);
+}
+
+.card-dica {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:320px) and (max-width:991px){
+/*configurar a area do footer*/
+    div.subtit2 {
+
+        padding: 10px;
+        display: grid;
+        grid-gap: 10px;
+        
+        
+    }
+    div > #text{
+         
+          
+
+         text-align: left;
+         font-family: cursive; 
+         font-size: 100%;
+    }
+    div.subtit2 > .btn-warning{
+        justify-self: left;
+        align-self: center;
+
+    }
+
+    #JSarea{
+        max-width: 98%;
+
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(1, 100%);
+    }
+}
